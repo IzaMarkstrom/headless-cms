@@ -24,4 +24,4 @@ node_modules/
 
 .env
 
-wp-config.php
+/wp-config.php
