@@ -23,5 +23,3 @@ node_modules/
 *.sqlite
 
 .env
-
-wp-config.php
