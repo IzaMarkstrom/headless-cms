@@ -19,11 +19,12 @@
  * @package WordPress
  */
 
+// This loads the composer autoload file
 require_once dirname(__FILE__) . '/vendor/autoload.php';
 
-// Load phpdotenv by instansiate the class and using the static function of createimmutable
+// Instantiates the class and passes in our path to .env
 $dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
-// On that class we load phpdotenv
+// We load phpdotenv on the class
 $dotenv->load();
 
 // ** Database settings - You can get this info from your web host ** //
